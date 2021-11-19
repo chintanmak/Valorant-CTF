@@ -42,3 +42,12 @@
 .hack{
   text-align: center;
 }
+
+.body1 {
+  background-image: url('images/victory.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+}

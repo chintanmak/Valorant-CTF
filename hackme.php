@@ -9,11 +9,11 @@
 <div class="topnav">
 <a href="index.html">HOME</a>
 <a  class="active" href="hackme.php">HACK ME</a>
-<a href="keyword.php">DIFUSE THE SPIKE</a>
+<a href="keyword.php">DEFUSE THE SPIKE</a>
 </div>
 
 <br>
-
+<center>
 <form action="hackme.php" method="POST">
 <div class="hack">
 	<input type="text" name="name" placeholder="type here..">
@@ -55,6 +55,6 @@ while($data = mysqli_fetch_array($records))
 
 <?php mysqli_close($db); // Close connection ?>
 
-
+</center>
 </body>
 </html>
